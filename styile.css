@@ -1,0 +1,137 @@
+.bdlout{
+	height:1600px;
+	width:1341px;
+}
+.onetr{
+height:200px;
+width:1341px;
+animation:asp 20s infinite;
+}
+@keyframes asp{
+0%{background-image:url("a.jpg");}
+20%{background-image:url("b.jpg");}
+40%{background-image:url("c.jpg");}
+60%{background-image:url("d.jpg");}
+80%{background-image:url("a.jpg");}
+100%{background-image:url("picture7.jpg");}
+}
+
+#twotr{
+	height:30px;
+}
+#annimation{
+	height:20px;
+}
+#threetr{
+	height:20px;
+	background-color:pink;
+}
+#hmbtn{
+	background-color:pink;
+	border-color:pink;
+	border-radius:6px 6px 6px 6px;	
+}
+#mnubtn{
+	background-color:pink;
+	border-color:pink;
+	border-radius:6px 6px 6px 6px;	
+}
+#bton{
+	background-color:pink;
+	border-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#Rgstrbtn{
+	background-color:pink;
+	border-color:pink;
+	border-radius:6px 6px 6px 6px;	
+}
+#cntctbtn{
+	background-color:pink;
+	border-color:pink;
+	border-radius:6px 6px 6px 6px;		
+}
+#Abutbtn{
+	background-color:pink;
+	border-color:pink;
+	border-radius:6px 6px 6px 6px;	
+}
+#fourtr{
+	height:30px;
+	background-color:pink;
+	color:red;
+}
+#fivetr{
+	height:330px; 
+}
+#fivintr{
+	height:330px; 
+	width:841px;
+	background-color:pink; 	
+}
+#ntble{
+	text-align:center;
+	width:500px;
+	height:370px;
+	background-color:#FFDAB9; 
+}
+#trone{
+    height:800px;	
+}
+#tdone{
+	width:841px;
+	background-color:pink;	
+}
+#vdotg{
+	height:150px;
+	width:300px;
+	border-radius:10px 10px 10px 10px;
+    box-shadow:9px 9px 10px 10px blue;
+	align-items:center;
+}
+#adotg{
+	height:30px;
+	width:250px;
+	border-radius:10px 10px 10px 10px;	
+}
+#figure{
+ 
+}
+#tdtwo{
+	width:500px;
+	background-color:#FFDAB9;	
+}
+#tdtwoimg{
+    height:810px;
+    width:500px;	
+}
+#dwnldbtn{
+	height:30px;
+	width:100px;
+    margin-left:180px;
+}
+#txtdn{
+    margin-left:193px;	
+}
+#pragrpdwn{
+    margin-left:197px;
+    color:green;
+}
+#nxtdwn{
+    margin-left:165px;	
+}
+#trtwo{
+   height:195px;
+}
+#lst1td{
+	background-color:pink;
+}
+#address{
+	margin-left:100px;
+}
+#lst3td{
+	background-color:#FFDAB9;	
+}
+#fdback{
+	margin-left:400px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Application</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="clrbd">
+	<form action="">
+		<table id="applicantion">
+			<caption><h1><u>Application</u> <u>Form</u></h1></caption>
+			<tr>
+				<th>Date :</th>
+				<td><input type="date" placeholder="Date" name="Date" value="Date" id="date"></td>
+			</tr>
+			<tr>
+				<th>Name :</th>
+				<td><input type="text" placeholder="Enter Your Name" value="Name" name="Your Name" maxlength="30" id="name"></td>
+			</tr>
+			<tr>
+				<th>Father's Name :</th>
+				<td><input type="text" placeholder="Enter Your Father's Name" name="Father's Name" value="Father's Name" maxlength="30" id="fname"></td>
+			</tr>
+			<tr>
+				<th>Mother's Name :</th>
+				<td><input type="text" placeholder="Enter Your Mother's Name" name="Mother's Name" value="Mother's Name" maxlength="30" id="mname"></td>
+			</tr>
+			<tr>
+				<th>Date Of Birth :</th>
+				<td>DD <input type="number" placeholder="DD" id="dd" min="0" max="32"> MM <input type="number" placeholder="MM" id="mm" min="0" max="12"> YYYY <input type="number" placeholder="YYYY" id="yyyy"></td>
+			</tr>
+			<tr>
+				<th>Gender :</th>
+				<td>Male<input type="radio" value="Male" name="Gender"> Female<input type="radio" value="Female" name="Gender"> Custom<input type="radio" value="Other" name="Gender"></td>
+			</tr>
+			<tr>
+				<th>Choose Color :</th>
+				<td><input type="color" value="clr" name="clr"></td>
+			</tr>
+			<tr>
+				<th>Select Range :</th>
+				<td>0<input type="range" min="0" max="100" value="Range">100</td>
+			</tr>
+			<tr>
+				<th>E-mail :</th>
+				<td><input type="email" placeholder="abc123@gmail.com" value="abc123@gmail.com" name="Your E-mail" id="mail"></td>
+			</tr>
+			<tr>
+				<th>Position :</th>
+				<td>Student<input type="checkbox" value="Student" name="Position"> BA PASS<input type="checkbox" value="BA Pass" name="Position"> MA PASS <input type="checkbox"  value="MA Pass" name="Position"></td>
+			</tr>
+			<tr>
+				<th>Life Quality :</th>
+				<td>Married <input type="radio" value="Married" name="Life Quality"> Unmarried<input type="radio" value="Unmarried" name="Life Quality"></td>
+			</tr>
+			<tr>
+				<th>Choose Lucky No :</th>
+				<td><input type="number" placeholder="Choose Number" value="Lucky No" name="Lucky Number" min="0" max="100" id="lucky"></td>
+			</tr>
+			<tr>
+				<th>Nationality :</th>
+				<td> 
+					<select name="" id="Nationality">
+					<option value="No Option">No Option</option>
+					<option value="Bangladeshi">Bangladesh</option>
+					<option value="India">India</option>
+					<option value="Shreelanka">Shreelanka</option>
+					<option value="Vutan">Vutan</option>
+					<option value="America">America</option>
+					<option value="Russia">Russia</option>
+					<option value="England">England</option>
+					<option value="China">China</option>
+					<option value="Pakistan">Pakistan</option>
+					<option value="Nepal">Nepal</option>
+					<option value="South Africa">South Africa</option>
+					<option value="Austriliya">Austriliya</option>
+					<option value="Newzeland">Newzeland</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Relagion :</th>
+				<td>
+					<select name="" id="Relagion">
+						<option value="No Option">No Option</option>
+						<option value="Hindu">Hindu</option>
+						<option value="Muslim">Muslim</option>
+						<option value="Christran">Christran</option>
+						<option value="Buddist">Buddist</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>District :</th>
+				<td>
+					<select name="" id="District">
+						<option value="No Option">No Option</option>
+						<option value="Barisal">Barisal</option>
+						<option value="Dhaka">Dhaka</option>
+						<option value="Gopalgonj">Gopalgonj</option>
+						<option value="Vola">Vola</option>
+						<option value="Rangpur">Rangpur</option>
+						<option value="Rajshahi">Rajshahi</option>
+						<option value="Khulna">Khulna</option>
+						<option value="Jossor">Jassor</option>
+						<option value="Madaripur">Madaripur</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Course Detail's :</th>
+				<td>
+					<select name="" id="Course">
+						<option value="No Option">No Option</option>
+						<optgroup label="Microsoft Office">
+							<option value="Word">Word</option>
+							<option value="Excel">Excel</option>
+							<option value="Power Point">Power Point</option>
+							<option value="Access">Access</option>
+						</optgroup>
+						<optgroup label="Web Desing">
+							<option value="HTML">HTML</option>
+							<option value="CSS">CSS</option>
+							<option value="PHP">PHP</option>
+							<option value="ASP.Net">ASP.Net</option>
+							<option value="Java Script">Java Script</option>
+							<option value="Wordpress">Wordpress</option>
+							<option value="J Quary">J Quary</option>
+						</optgroup>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Upload File :</th>
+				<td><input type="file" value="File" name="Document"></td>
+			</tr>
+			<tr>
+				<th>Upload Picture :</th>
+				<td><input type="file" value="File" name="Picture"></td>
+			</tr>
+			<tr>
+				<th>Phone No :</th>
+				<td>
+					<select name="" id="phn">
+						<option value="BD">+880</option>
+						<option value="India">+91</option>
+						<option value="Unk">+997</option>
+						<option value="unkn">633</option>
+						<option value="unkno">723</option>
+					</select>
+					<input type="number" value="phone No" name="Phone Number" placeholder="Enter Phone Number" id="phnno">
+				</td>
+			</tr>
+			<tr>
+				<th>Address :</th>
+				<td><textarea name="Address" id="add" cols="50" rows="8" placeholder="Your Address Write Here" maxlength="300">Asp Prothes Barai</textarea></td>
+			</tr>
+			<tr>
+				<th>New Password :</th>
+				<td><input type="password" placeholder="Enter New Password" id="newp" maxlength="8"></td>
+			</tr>
+			<tr>
+				<th>Confrim Password :</th>
+				<td><input type="password" placeholder="Enter Confrim Password" id="confp" maxlength="8"></td>
+			</tr>
+			<tr id="high">
+				<th></th>
+				<td><input type="submit" value="Submit" id="sbt"> &nbsp&nbsp&nbsp&nbsp<input type="submit" value="Cancel" id="Cans"></td>
+			</tr>
+		</table>
+	</form>
+	<p id="artst"><ins><em>This Form Formed By <br>Asp-Prothes</em></ins></p>
+</body>
+</html>

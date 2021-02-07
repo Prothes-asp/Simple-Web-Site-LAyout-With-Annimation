@@ -1,0 +1,99 @@
+.clrbd{
+	background-color:pink;
+}
+#applicantion{
+	margin-left:400px;
+}
+#date{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#name{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#fname{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#mname{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#dd{
+  width:40px;
+ background-color:pink;
+ border-radius:6px 6px 6px 6px; 
+}
+#mm{
+   width:40px;
+   background-color:pink;
+   border-radius:6px 6px 6px 6px;
+}
+#yyyy{
+   width:50px;
+   background-color:pink;
+   border-radius:6px 6px 6px 6px;
+}
+#mail{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#lucky{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#Nationality{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#Relagion{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#District{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#Course{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#phn{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#phnno{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#add{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#newp{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#confp{
+	background-color:pink;
+	border-radius:6px 6px 6px 6px;
+}
+#sbt{
+	height:40px;
+	width:80px;
+	background-color:pink;
+	border-radius:25px 50px;
+}
+#high{
+	height:100px;
+}
+#Cans{
+	height:40px;
+	width:80px;
+	background-color:pink;
+	border-radius:25px 50px;
+}
+#artst{
+	text-align:right;
+}
